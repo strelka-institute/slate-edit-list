@@ -1,7 +1,7 @@
 {
   "name": "@strelka/slate-edit-list",
   "description": "A Slate plugin to handle keyboard events in lists. (FORK)",
-  "version": "0.12.2",
+  "version": "0.13.0",
   "license": "Apache-2.0",
   "repository": "https://github.com/strelka-institute/slate-edit-list",
   "main": "./dist/index.js",
