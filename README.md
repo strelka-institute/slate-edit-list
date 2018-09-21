@@ -1,7 +1,6 @@
-# slate-edit-list
+# slate-edit-list (FORK)
 
-[![NPM version](https://badge.fury.io/js/slate-edit-list.svg)](http://badge.fury.io/js/slate-edit-list)
-[![Linux Build Status](https://travis-ci.org/GitbookIO/slate-edit-list.png?branch=master)](https://travis-ci.org/GitbookIO/slate-edit-list)
+[![NPM version](https://badge.fury.io/js/%40strelka%2Fslate-edit-list.svg)](http://badge.fury.io/js/%40strelka%2Fslate-edit-list)
 
 A Slate plugin to handle keyboard events in lists. List items can contain blocks.
 
@@ -10,7 +9,7 @@ Demo: [gitbookio.github.io/slate-edit-list/](https://gitbookio.github.io/slate-e
 ### Install
 
 ```
-npm install slate-edit-list
+npm install @strelka/slate-edit-list
 ```
 
 ### Features
@@ -34,7 +33,7 @@ Useful transforms: see [Utilities and Transform](#utilities-and-transform).
 ### Simple Usage
 
 ```js
-import EditList from 'slate-edit-list'
+import EditList from '@strelka/slate-edit-list'
 
 const plugins = [
   EditList()
