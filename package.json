@@ -69,10 +69,10 @@
     "prettier": "^1.13.3",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "slate": "0.37.x",
+    "slate": "0.38.x",
     "slate-hyperprint": "^2.2.5",
     "slate-hyperscript": "0.7.x",
-    "slate-react": "0.15.x",
+    "slate-react": "0.16.x",
     "stringify": "^5.1.0"
   }
 }
