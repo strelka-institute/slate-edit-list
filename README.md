@@ -4,7 +4,7 @@
 
 A Slate plugin to handle keyboard events in lists. List items can contain blocks.
 
-Demo: [gitbookio.github.io/slate-edit-list/](https://gitbookio.github.io/slate-edit-list/)
+Demo: [strelka-institute.github.io/slate-edit-list/](https://strelka-institute.github.io/slate-edit-list/)
 
 ### Install
 
