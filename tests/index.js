@@ -30,7 +30,7 @@ tests
                 { normalize: false }
             );
 
-            const change = runChange(PLUGIN, value.change());
+            const change = runChange(PLUGIN, value.change(), t);
             const changedDoc = change.value.toJSON();
 
             t.snapshot(changedDoc);

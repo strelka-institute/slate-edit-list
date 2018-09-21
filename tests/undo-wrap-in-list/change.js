@@ -1,6 +1,4 @@
-import expect from 'expect';
-
-export default function(plugin, change) {
+export default function(plugin, change, t) {
     const { value } = change;
     const initialText = value.startBlock.text;
     const initialSelection = value.selection;
@@ -8,8 +6,8 @@ export default function(plugin, change) {
     change.call(plugin.changes.wrapInList).undo();
 
     // Back to previous cursor position
-    expect(change.value.startBlock.text).toEqual(initialText);
-    expect(change.value.selection.toJS()).toEqual(initialSelection.toJS());
+    t.is(change.value.startBlock.text, initialText);
+    t.deepEqual(change.value.selection.toJS(), initialSelection.toJS());
 
     return change;
 }
